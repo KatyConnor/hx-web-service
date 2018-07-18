@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 支持移动设备的访问 -->
+	<title>demo 测试页面</title>
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="../../css/bootstrap/css/bootstrap.min.css"/>
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="../../js/jquery/jquery.min.js"/></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="../../css/bootstrap/js/bootstrap.min.js"/></script>
+
+		<link type="text/css" rel="stylesheet" href="../../css/dateTime/reset.css" >
+        <link type="text/css" rel="stylesheet" href="../../css/dateTime/default.css" >
+        <link type="text/css" rel="stylesheet" href="../../css/dateTime/style.css">
+        <link type="text/css" rel="stylesheet" href="../../css/dateTime/shCoreDefault.css">
+        <script type="text/javascript" src="../../script/XRegExp.js"></script>
+        <script type="text/javascript" src="../../script/shCore.js"></script>
+        <script type="text/javascript" src="../../script/shLegacy.js"></script>
+        <script type="text/javascript" src="../../script/shBrushJScript.js"></script>
+        <script type="text/javascript" src="../../script/shBrushXml.js"></script>
+		<script type="text/javascript" src="../../js/jquery/jquery-3.1.1.min.js"></script> 
+		<script type="text/javascript" src="../../script/zebra_datepicker.js"></script> 
+		<script type="text/javascript" src="../../script/core.js"></script>
+		<script type="text/javascript" src="../../js/laydate/laydate/laydate.js"></script>
+<script type="text/javascript">
+            SyntaxHighlighter.defaults['toolbar'] = false;
+            SyntaxHighlighter.all();
+			$(function(){
+			$('#datepicker-example1').Zebra_DatePicker({
+				direction:[new Date(),true],
+				show_week_number: 'Wk'
+				});
+				
+			var date = 	new Date().getFullYear()+'-'+(new Date().getMonth()+1)+'-'+new Date().getDate()+' 23:59:59';
+			
+			laydate({
+				elem: '#time', //需显示日期的元素选择器
+				event: 'click', //触发事件
+				format: 'YYYY-MM-DD hh:mm:ss', //日期格式
+				istime: true, //是否开启时间选择
+				isclear: true, //是否显示清空
+				istoday: true, //是否显示今天
+				issure: true, //是否显示确认
+				festival: true, //是否显示节日
+				min: '1900-01-01 00:00:00', //最小日期
+				max: '2099-12-31 23:59:59', //最大日期
+			    start:date,  //开始日期
+				fixed: true, //是否固定在可视区域
+				zIndex: 99999999, //css z-index
+				//choose: function(dates){} //选择好日期的回调
+			});	
+			//laydate.skin('molv');
+			
+			});
+			
+			function addRow(obj){
+				var length = $("#grid tr").length;
+				var current = $(obj).parent().parent().parent().prevAll().length;
+			}
+
+
+			
+			
+</script>
+<style type="text/css">
+th{
+	text-align: center;
+	background-color: gray;
+	border: thin;
+}
+td{
+	border: thin;
+}
+.input{
+	background-color:transparent;
+	border: none;
+}
+</style>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="clui-panels">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<i class="fa fa-search"></i> 用户注册
+					<div class="panel-body panel panel-default">
+						<div class="panel col-sm-12">
+							<div class="form-horizontal" role="form">
+								<h3>基本信息</h3>
+								<div class="form-group form-group-sm" style="padding-top:20px;">
+									<div class="col-sm-1" style="text-align: right" >
+										<label style="color:red;">*</label>
+										<label>用户名：</label>
+									</div>
+									<div class="col-sm-3" >
+										<input type="text" name="userName" value=""></input>
+									</div>
+								</div>
+								<div class="form-group form-group-sm" style="padding-top:20px;">
+									<div class="col-sm-1" style="text-align: right" >
+										<label style="color:red;">*</label>
+										<label>密码：</label>
+									</div>
+									<div class="col-sm-3" >
+										<input type="password" name="password" value=""></input>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="btn-group btn-group-sm fn-abs-right">
+						<div class="col-sm-6">
+							<button class="btn btn-sm btn-primary btn-default" id="btnSearch">
+								<i class="fa fa-search"></i> 注册
+							</button>
+						</div>
+						<div class="col-sm-6">
+							<button class="btn btn-sm btn-primary btn-default" id="btnCancel"
+								title="清空查询条件">
+								<i class="fa fa-refresh"></i> 重置
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="panel-body">
+					<div class="panel-body panel panel-default">
+						<div class="panel col-sm-12">
+							<div class="form-horizontal">
+								<div class="col-sm-12" >
+									<h3>时间测试</h3>
+									<div class="form-group form-group-sm" style="padding-top:20px;">
+										<div class="col-sm-1" style="text-align: right" >
+											<label>开始时间：</label>
+										</div>
+										<div class="col-sm-2" >
+											<input class="form-control" id="datepicker-example1" placeholder="请输入日期" type="text" ></input>
+										</div>
+										<div class="col-sm-1" style="text-align: right" >
+											<label>结束时间：</label>
+										</div>
+										<div class="col-sm-2" >
+											<input class="form-control laydate-icon" placeholder="请输入日期" type="text"onclick="laydate()" />
+										</div>
+										<div class="col-sm-1" style="text-align: right" >
+											<label>时间：</label>
+										</div>
+										<div class="col-sm-2">
+											<input class="form-control laydate-icon" id="time" placeholder="请输入日期" type="text"/>
+										</div>
+										<div class="col-sm-1" style="text-align: right" >
+											<label>类型编号：</label>
+										</div>
+										<div class="col-sm-2" >
+											<input class="form-control" type="text" name="" class=""></input>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<table class="table" contenteditable="false" border="1" draggable="true" spellcheck="true" style="text-align: center;">
+										<thead class><tr><th>序号</th><th>名称</th><th>地址</th><th>时间</th><th>操作</th></tr></thead>
+										<tbody>
+											<tr>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											</tr>
+											<tr>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td></tr>
+											<tr><td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td><td>
+											<input class="input" type="text" readonly unselectable="on"/></td></tr>
+											<tr><td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td>
+											<td><input class="input" type="text" readonly unselectable="on"/></td></tr>
+										</tbody>
+										<tfoot style="text-align: left;font-size: 20">报表统计结果</tfoot>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
