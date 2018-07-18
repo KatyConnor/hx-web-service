@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cc21619-d7cf-403c-b774-919ef171d842" name="Default Changelist" comment="" />
+    <list default="true" id="3cc21619-d7cf-403c-b774-919ef171d842" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hx/web/front/service/adapter/WebServlteAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hx/web/front/service/filter/WebServlteFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hx/web/front/service/handler/WebServlteHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hx/web/front/service/HXWebServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hx/web/front/service/HXWebServiceApplication.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,24 +22,27 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="2" />
           <entry key="ftl" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="6" />
           <entry key="js" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="2" />
           <entry key="FTL" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="6" />
           <entry key="JavaScript" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -40,7 +50,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ftl" value="88" />
-          <entry key="java" value="277" />
+          <entry key="java" value="338" />
           <entry key="xml" value="66" />
           <entry key="yml" value="37" />
         </counts>
@@ -48,7 +58,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="FTL" value="88" />
-          <entry key="JAVA" value="277" />
+          <entry key="JAVA" value="338" />
           <entry key="XML" value="66" />
           <entry key="YAML" value="37" />
         </counts>
@@ -56,25 +66,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/gateway/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="247">
+              <caret line="17" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/gateway/WebGatewayController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="285">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,17 +94,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/rule/home.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
-              <caret line="229" column="24" lean-forward="true" selection-start-line="229" selection-start-column="24" selection-end-line="229" selection-end-column="24" />
+            <state relative-caret-position="4351">
+              <caret line="229" column="24" selection-start-line="229" selection-start-column="24" selection-end-line="229" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/view/login/vue.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/filter/WebServlteFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/handler/WebServlteHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/view/login/vue.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/adapter/WebServlteAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +149,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="14" />
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -123,7 +158,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/HXWebServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,17 +183,23 @@
       <find>message</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/hx/web/front/service/HXWebServiceApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/hx/web/front/service/gateway/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/rule/home.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/hx/web/front/service/gateway/WebGatewayController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/view/login/vue.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/hx/web/front/service/HXWebServiceApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hx/web/front/service/filter/WebServlteFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hx/web/front/service/handler/WebServlteHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hx/web/front/service/adapter/WebServlteAdapter.java" />
       </list>
     </option>
   </component>
@@ -193,22 +234,34 @@
       <dailyData date="18-7-2018">
         <observation name="false" value="37.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="18-7-2018">
         <observation name="UNDEFINED" value="10.0" />
         <observation name="false" value="27.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="18-7-2018">
         <observation name="false" value="37.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="false" value="2.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="18-7-2018">
         <observation name="0" value="11.0" />
         <observation name="UNDEFINED" value="26.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="UNDEFINED" value="2.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -217,12 +270,18 @@
         <observation name="false" value="8.0" />
         <observation name="true" value="24.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="true" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="18-7-2018">
         <observation name="UNDEFINED" value="5.0" />
         <observation name="false" value="30.0" />
         <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="false" value="2.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -231,12 +290,18 @@
         <observation name="false" value="30.0" />
         <observation name="true" value="2.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="18-7-2018">
         <observation name="UNDEFINED" value="5.0" />
         <observation name="false" value="30.0" />
         <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="false" value="2.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -245,17 +310,26 @@
         <observation name="false" value="24.0" />
         <observation name="true" value="8.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="18-7-2018">
         <observation name="false" value="35.0" />
         <observation name="true" value="2.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="18-7-2018">
         <observation name="NORMAL" value="27.0" />
         <observation name="UNDEFINED" value="10.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="NORMAL" value="2.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -264,6 +338,9 @@
         <observation name="expected" value="7.0" />
         <observation name="normal" value="18.0" />
         <observation name="ofDefaultType" value="2.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="normal" value="2.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -277,11 +354,17 @@
         <observation name="probableKeyword" value="1.0" />
         <observation name="suitableClass" value="6.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="classNameOrGlobalStatic" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="18-7-2018">
         <observation name="UNDEFINED" value="5.0" />
         <observation name="unknown" value="32.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="unknown" value="2.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -290,17 +373,26 @@
         <observation name="false" value="12.0" />
         <observation name="null" value="20.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="18-7-2018">
         <observation name="UNDEFINED" value="5.0" />
         <observation name="unknown" value="32.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="applicableByKind" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="18-7-2018">
         <observation name="UNDEFINED" value="20.0" />
         <observation name="normal" value="17.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="UNDEFINED" value="2.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -309,15 +401,25 @@
         <observation name="explicitSelect" value="31.0" />
         <observation name="typedSelect" value="6.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="cancelled" value="8.0" />
+        <observation name="explicitSelect" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="18-7-2018">
         <observation name="BASIC" value="53.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="BASIC" value="4.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="18-7-2018">
         <observation name="count" value="167.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="count" value="10.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -328,11 +430,25 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.065749" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
       <dailyData date="18-7-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="73.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -347,6 +463,9 @@
         <observation name="min" value="-2.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="18-7-2018">
@@ -357,6 +476,13 @@
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.023661" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="18-7-2018">
@@ -365,6 +491,13 @@
         <observation name="max" value="5.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.91934" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="1.333333" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.222222" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -375,6 +508,13 @@
         <observation name="min" value="-1157.0" />
         <observation name="variance" value="47606.203395" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="-1074.333333" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="-1071.0" />
+        <observation name="min" value="-1081.0" />
+        <observation name="variance" value="5.555556" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="18-7-2018">
@@ -383,6 +523,13 @@
         <observation name="max" value="1.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.072529" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
@@ -394,6 +541,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="3666.408447" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="18-7-2018">
@@ -403,6 +557,13 @@
         <observation name="max" value="8.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="7.474379" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -414,6 +575,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.13644" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="18-7-2018">
@@ -424,11 +592,25 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.13644" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="18-7-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="73.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -442,6 +624,13 @@
         <observation name="min" value="3.0" />
         <observation name="variance" value="30.417356" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="31.666667" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="35.0" />
+        <observation name="min" value="25.0" />
+        <observation name="variance" value="5.555556" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="18-7-2018">
@@ -451,6 +640,13 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.043076" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -462,6 +658,13 @@
         <observation name="min" value="-999.0" />
         <observation name="variance" value="23613.422668" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="18-7-2018">
@@ -472,11 +675,25 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
       <dailyData date="18-7-2018">
         <observation name="average" value="1.0" />
         <observation name="count" value="73.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="3.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -491,6 +708,13 @@
         <observation name="min" value="-5.0" />
         <observation name="variance" value="0.558674" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="-3.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="-3.0" />
+        <observation name="min" value="-3.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="18-7-2018">
@@ -499,6 +723,13 @@
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="16194729.107284" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -509,11 +740,19 @@
         <observation name="4" value="1.0" />
         <observation name="5" value="1.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="0" value="1.0" />
+        <observation name="2" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="18-7-2018">
         <observation name="total" value="27.0" />
         <observation name="withMnemonics" value="3.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="total" value="2.0" />
+        <observation name="withMnemonics" value="2.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
@@ -528,11 +767,19 @@
         <observation name="7" value="1.0" />
         <observation name="8" value="2.0" />
       </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="10" value="1.0" />
+        <observation name="6" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="18-7-2018">
         <observation name="average" value="511.387097" />
         <observation name="count" value="93.0" />
+      </dailyData>
+      <dailyData date="19-7-2018">
+        <observation name="average" value="777.72" />
+        <observation name="count" value="25.0" />
       </dailyData>
     </factor>
   </component>
@@ -541,8 +788,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -560,6 +805,21 @@
               <item name="hx-web-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hx-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hx-web-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hx-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hx-web-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hx-web-service" type="b2602c69:ProjectViewProjectNode" />
@@ -599,7 +859,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -697,31 +959,25 @@
       <option name="presentableId" value="Default" />
       <updated>1531924381538</updated>
       <workItem from="1531924385974" duration="4125000" />
+      <workItem from="1531957153080" duration="751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4125000" />
+    <option name="totallyTimeSpent" value="4876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -729,16 +985,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" weight="0.19369973" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.19369973" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,30 +1028,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/seajs/sea.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/HXWebServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -804,28 +1043,26 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/rule/home.ftl">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="229" column="24" lean-forward="true" selection-start-line="229" selection-start-column="24" selection-end-line="229" selection-end-column="24" />
+        <state relative-caret-position="1064">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/gateway/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="247">
+          <caret line="17" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/gateway/WebGatewayController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="285">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -833,10 +1070,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/rule/home.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4351">
+          <caret line="229" column="24" selection-start-line="229" selection-start-column="24" selection-end-line="229" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/view/login/vue.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="465">
           <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/HXWebServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/filter/WebServlteFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/handler/WebServlteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/http/server/reactive/ServletHttpHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar!/org/springframework/web/servlet/handler/WebRequestHandlerInterceptorAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hx/web/front/service/adapter/WebServlteAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
