@@ -14,10 +14,14 @@
 <link rel="stylesheet" href="../../css/bootstrap/css/bootstrap.css.map"/> -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" /> -->
-
+<style>
+    [v-cloak] {
+        display: none;
+    }
+</style>
 </head>
 <body>
-	<div id="app">
+	<div id="app" v-cloak>
         {{name}} {{ange}} {{address}}
 	</div>
 
@@ -80,6 +84,25 @@
                     alert(event.target.tagName)
                 }
             }
+        }
+    });
+
+    new Vue({
+        el:'#app',
+        data:{data:""},
+        created:function(){
+            var url="json.jsp";
+            var _self=this;
+            $.get(url,function(data){
+                _self.data=eval("(" + data +")");
+            })
+            /*
+            this.$http.get(url).then(function(data){
+                var json=data.body;
+                this.data=eval("(" + json +")");
+            },function(response){
+                console.info(response);
+            })*/
         }
     });
 

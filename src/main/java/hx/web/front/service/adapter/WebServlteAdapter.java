@@ -1,9 +1,7 @@
 package hx.web.front.service.adapter;
 
-import org.springframework.http.server.reactive.ServletHttpHandlerAdapter;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.WebRequestInterceptor;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.handler.WebRequestHandlerInterceptorAdapter;
 
 /**
@@ -13,8 +11,8 @@ import org.springframework.web.servlet.handler.WebRequestHandlerInterceptorAdapt
 
 @Component
 public class WebServlteAdapter extends WebRequestHandlerInterceptorAdapter {
+
     public WebServlteAdapter(WebRequestInterceptor requestInterceptor) {
         super(requestInterceptor);
-        //WebMvcConfigurerAdapter
     }
 }

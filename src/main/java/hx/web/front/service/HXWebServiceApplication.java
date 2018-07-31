@@ -15,6 +15,9 @@ public class HXWebServiceApplication {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
         SpringApplication.run(HXWebServiceApplication.class,args);
+//        final ApplicationContext context = new SpringApplication(Application.class).run(args);
+//        final CamelSpringBootApplicationController controller = context.getBean(CamelSpringBootApplicationController.class);
+//        controller.run();
         System.out.printf("启动耗时 "+(System.currentTimeMillis() - startTime)/1000+" s");
     }
 }
